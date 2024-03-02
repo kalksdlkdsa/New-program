@@ -1,5 +1,7 @@
 org 0x7C00
 bits 16
+start:
+    jmp main
 main:
     ; setup data segment
     mov ax, 0 ; can't write to es/ds directly
